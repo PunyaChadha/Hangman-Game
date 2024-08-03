@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Play Hangman</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div id="blur"></div>
+    <div id="popUp">
+        <img src="hangman_images/victory.gif" id="emoji">
+        <p id="msg">!! OOPS !!<br>Better luck next time</p>
+        <button id="new">New Game</button>
+    </div>
+    <div id="heading">
+        <h1>PLAY <span>HANGMAN</span></h1>
+    </div>
+    <div id="category">
+        <h3 id="selectCat">Select A Category</h3>
+        <div id="options">
+            <button class="cat">Animals</button>
+            <button class="cat">Art</button>
+            <button class="cat">Bollywood</button>
+            <button class="cat">Food</button>
+            <button class="cat">Geography</button>
+            <button class="cat">Literature</button>
+            <button class="cat">Math</button>
+            <button class="cat">Music</button>
+            <button class="cat">Science</button>
+            <button class="cat">Sports</button>
+            <button class="cat">Technology</button>
+            <button class="cat">VideoGames</button>
+        </div>
+    </div>
+    <div id="container">
+        <div id="image">
+            <img src="hangman_images/hangman-0.svg" id="imgg">
+        </div>
+        <div id="content">
+            <p id="word"></p>
+            <p id="hint">Hint : Hint Loading...</p>
+            <div id="alphabets">
+                <button class="btn">A</button>
+                <button class="btn">B</button>
+                <button class="btn">C</button>
+                <button class="btn">D</button>
+                <button class="btn">E</button>
+                <button class="btn">F</button>
+                <button class="btn">G</button>
+                <button class="btn">H</button>
+                <button class="btn">I</button>
+                <button class="btn">J</button>
+                <button class="btn">K</button>
+                <button class="btn">L</button>
+                <button class="btn">M</button>
+                <button class="btn">N</button>
+                <button class="btn">O</button>
+                <button class="btn">P</button>
+                <button class="btn">Q</button>
+                <button class="btn">R</button>
+                <button class="btn">S</button>
+                <button class="btn">T</button>
+                <button class="btn">U</button>
+                <button class="btn">V</button>
+                <button class="btn">W</button>
+                <button class="btn">X</button>
+                <button class="btn">Y</button>
+                <button class="btn">Z</button>
+            </div>
+        </div>
+    </div>
+</body>
+<script src="./script.js" type="module"></script>
+<!-- <script src="words.js"></script>
+<script src="randomNum.js"></script> -->
+</html>
